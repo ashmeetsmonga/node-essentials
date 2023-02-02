@@ -5,5 +5,5 @@ const rl = readline.createInterface({
 });
 
 rl.question("How do you like node?", (ans) => {
-	console.log("Your ans is : ", ans);
+	console.log("Your ans is :", ans);
 });
